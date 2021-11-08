@@ -36,6 +36,20 @@ void main(){
 
   // #set
   var itemSet = {1, 2, 3};
+  print(itemSet);
+
+  // #itemMap : 'key' : 'value'
+  var itemMap = {
+      'key1' : 1,
+      'key2' : 2,
+      'key3' : 3
+  };
+  print(itemMap);
+
+  // # 스프레드 연산자 : ... 사용
+  var items3 = [...items2, 4, 5];
+  print(items3);
+
   
 
 }
