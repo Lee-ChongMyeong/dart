@@ -29,4 +29,6 @@ void main(){
   print(number3 * number4);
   print(number3 / number4);
 
+  // # num : int, double 타입
+
 }
